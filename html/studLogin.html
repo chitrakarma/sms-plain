@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            LogIn
+        </title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../css/login.css" />
+        <link rel="stylesheet" href="../bs/css/bootstrap.min.css" />   
+        <meta name="viewport" content="width=device-width, initial-scale=1" />     <!-- for touchscreen devices -->
+    </head>
+    <body>
+        <p align="center" id="heading">Student Management System</p>
+        <p align="center" id="subhead">LogIn</p>
+        <div class="container">
+            <form action="../php/getData.php" method="POST">
+                <table cellpadding="15">
+                    <tr>
+                        <td>
+                            <input type="text" name="username" placeholder="Username" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="password" name="pass" placeholder="Password" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" name="submit_1" value="Submit"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

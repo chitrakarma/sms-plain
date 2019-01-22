@@ -1,0 +1,59 @@
+#heading{
+    font-size: 3em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+#subhead{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 5%;
+}
+input[type="date"]{
+    width: 100%;
+}
+input[type="submit"]{
+    width: 100%;
+}
+#stud{
+    display: inline-block;
+    height: 3em;
+    width: 7em;
+    margin-left: 30%;
+    margin-top: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    text-align: center;
+    padding-top: 1%;
+}
+#stud:hover{
+    box-shadow: 2px 2px 5px lightgray;
+}
+#delt{
+    display: inline-block;
+    height: 3em;
+    width: 12em;
+    margin-left: 50%;
+    margin-top: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    text-align: center;
+    padding-top: 1%;
+}
+#delt:hover{
+    box-shadow: 2px 2px 5px lightgray;
+}
+#sub{
+    display: none;
+}
